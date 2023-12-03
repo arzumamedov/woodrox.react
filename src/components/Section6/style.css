@@ -1,0 +1,107 @@
+.section6 {
+    width: 75%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px
+}
+
+.section6Top {
+    width: 750px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section6Top h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+}
+
+.section6Top p {
+    color: #777777;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.section6Bottom {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel1 {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.travel1 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.travel1Bottom {
+    width: 350px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.travel1Bottom h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.travel1Bottom .p1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #777777;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.travel1Bottom .p2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+.travel1Bottom .btn1 {
+    background-color: #FABA00;
+    color: white;
+    border: none;
+    width: 65px;
+    height: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+.travel1Bottom .btn2 {
+    width: 80px;
+    height: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    border: 1px solid #efecec;
+    background-color: white;
+    transition: 500ms;
+}
+.travel1Bottom .btn2:hover{
+    background-color: #FABA00;
+    color: white;
+    cursor: pointer;
+}

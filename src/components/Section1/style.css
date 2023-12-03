@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+
+.section1 {
+    width: 100%;
+    height: 120vh;
+    background-image: url("https://preview.colorlib.com/theme/woodrox/img/banner/home-banner.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section1Top {
+    width: 75%;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1TopLeft {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section1TopLeft p {
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    transition: 500ms;
+}
+.section1TopLeft p:hover{
+    color: #FABA00;
+    cursor: pointer;
+}
+
+.section1TopRight {
+    width: 190px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section1TopRight i {
+    color: white;
+    font-size: 13px;
+    transition: 500ms;
+}
+.section1TopRight i:hover{
+    color: #FABA00;
+    cursor: pointer;
+}
+
+.section1Center {
+    width: 75%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1CenterLeft {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.section1CenterLeft:hover{
+    cursor: pointer;
+}
+
+.section1CenterRight {
+    width: 400px;
+    height: 70px;
+}
+.section1CenterRight{
+    cursor: pointer;
+}
+
+ul {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.section1Bottom {
+    width: 75%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section1BottomLeft {
+    width: 520px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section1BottomLeft h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 36px;
+}
+
+.section1BottomLeft p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.section1BottomLeft button {
+    width: 155px;
+    height: 52px;
+    background-color: #FABA00;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 500ms;
+}
+.section1BottomLeft button:hover{
+    background-color: initial;
+    border: 1px solid #FABA00;
+    color: #FABA00;
+    cursor: pointer;
+}
+
+.section1BottomRight {
+    width: 350px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.div1 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+    border: 1px solid rgb(95, 94, 94);
+    border-left: none;
+    border-top: none;
+}
+
+.div2 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+    border: 1px solid rgb(95, 94, 94);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.div3 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+    border: 1px solid rgb(95, 94, 94);
+    border-left: none;
+    border-top: none;
+}
+
+.div4 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+    border: 1px solid rgb(95, 94, 94);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.div5 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+    border: 1px solid rgb(95, 94, 94);
+    border-left: none;
+    border-top: none;
+}
+
+.div6 {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+    border: 1px solid rgb(95, 94, 94);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+
+.div1:hover {
+    background-color: #FABA00;
+    cursor: pointer;
+}
+
+.div1 i {
+    color: white;
+    font-size: 40px;
+}
+
+.div2 i {
+    color: white;
+    font-size: 40px;
+}
+
+.div2:hover {
+    background-color: #FABA00;
+    cursor: pointer;
+}
+
+.div3 i {
+    color: white;
+    font-size: 40px;
+}
+
+.div3:hover {
+    background-color: #FABA00;
+    cursor: pointer;
+}
+
+.div4 i {
+    color: white;
+    font-size: 40px;
+}
+
+.div4:hover {
+    background-color: #FABA00;
+    cursor: pointer;
+}
+
+.div5 i {
+    color: white;
+    font-size: 40px;
+}
+
+.div5:hover {
+    background-color: #FABA00;
+    cursor: pointer;
+}
+
+.div6 i {
+    color: white;
+    font-size: 40px;
+}
+
+.div6:hover {
+    background-color: #FABA00;
+    cursor: pointer;
+}
